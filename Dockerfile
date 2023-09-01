@@ -1,5 +1,5 @@
 FROM nginx
-LABEL maintainer='ULRICH NOUMSI'
+LABEL maintainer='Maher MAKHZOUMI'
 RUN apt-get update && apt-get install git -y
 WORKDIR /tmp
 RUN git clone https://github.com/diranetafen/static-website-example.git
